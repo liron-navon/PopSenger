@@ -12,5 +12,5 @@ The widget is made to Improve the communication between web admins or business m
 
 This repository contain a sample code of such widget.
 
-In order to create your own widget and get more information, please refer to [http://wonder-solve.com/test.io/](http://wonder-solve.com/test.io/)
+In order to create your own widget and get more information, please refer to [http://wonder-solve.com/PopSenger.io/](http://wonder-solve.com/PopSenger.io/)
 
