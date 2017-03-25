@@ -2,16 +2,17 @@
 <style>
     .fb_hidden{ display: none; }
     .fb-messenger-btn{ z-index:9998; }    
-    .fb-widget{ border-radius:3px;position:absolute; top:100px;left:50%;width: 250px;transform: translateX(-50%); border:none; height: 350px;}    
-    .fb-text-icon{ position:fixed;right:72px;bottom:27px; z-index:9997;}
-    .fb-messenger-icon{ transition: 0.3s ease;position:fixed; bottom:12px;right:12px;z-index:9997;width:60px;cursor: pointer;  }
+    .fb-widget{ position:absolute; top:100px; width:250px; height:350px; margin-left:auto; margin-right:auto; left:0; right:0; border:none; border-radius:3px; }    
+    .fb-text-icon{ position:fixed; right:60px; bottom:20px; z-index:9997; max-width:120px; }
+    .fb-messenger-icon{ position:fixed; right:12px; bottom:12px; width:60px; z-index:9997; cursor: pointer; transition: 0.3s ease; }
     .fb-messenger-icon:hover{ -webkit-transform: scale(0.8);-ms-transform: scale(0.92);transform: scale(0.92);transition: 0.3s ease;}
-    .fb-box{ background: rgba(0, 0, 0, 0.9);height: 100%;width: 100%;position: fixed;bottom:0;z-index:9998;}
-    .fb-x{ max-height: 20px;position: absolute;right: 15px;top:15px;cursor: pointer;-webkit-transition: -webkit-transform .2s ease-in-out;transition: transform .2s ease-in-out;}
-    .fb-x:hover{ -webkit-transform: rotate(90deg);transform: rotate(90deg);}
+    .fb-box{ position: fixed; background: white; height: 100%; width: 100%; bottom:0; z-index:9998; }
+    .fb-x{ opacity: 0.5; max-height: 17px;position: absolute;right: 15px;top:15px;cursor: pointer;-webkit-transition: -webkit-transform .2s ease-in-out;transition: transform .2s ease-in-out;}
+    .fb-x:hover{ opacity: 1; -webkit-transform: rotate(90deg); transform:rotate(90deg);}
     @media(min-width:768px) {
-    .fb-widget{ position:absolute;top:15px!important;right:-110px!important;height: 350px;width: 250px;}
-    .fb-box{ background-color:#fff;position: fixed;bottom:90px;right: 20px;box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);width:280px;height: 380px;border-radius: 3px;z-index:9998; }
+    .fb-widget{ position:absolute; top:15px!important;}
+    .fb-box{ bottom:90px; right:20px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); width:280px; height:380px; border-radius:3px; }
+    .fb-x{ display: none; }
     } 
 </style>
 
@@ -19,11 +20,11 @@
     <div id="fb-messenger-btn" class="fb-messenger-btn">
         <!--pop-up box-->
         <div id="fb-side-pop" class="fb_hidden fb-box">
-            <img class="fb-x" src="assets/images/closew.png" alt="text-icon"> 
+            <img class="fb-x" src="http://wonder-solve.com/PopSenger.io/assets/images/closeb.png" alt="text-icon"> 
             <iframe id="fb_iframe" title="fb:page Facebook Social Plugin" class="fb-widget" src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=1852423625014087&amp;channel=http://staticxx.facebook.com/connect/xd_arbiter/r/ao6eUeuGXQq.js?version=42%23cb=f2e7f31ef1f77f4&amp;domain=wonder-solve.com&amp;origin=http://wonder-solve.com/f10d6823be05b5c&amp;relation=parent.parent&amp;container_width=0&amp;height=350&amp;hide_cover=true&amp;href=https://www.facebook.com/WonderSolve/?fref=ts/&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=messages&amp;width=250">
             </iframe>        
         </div>
-        <img class="fb-text-icon" src="assets/images/text.png" alt="text-icon">
+        <img class="fb-text-icon" src="http://wonder-solve.com/PopSenger.io/assets/images/text.svg" alt="text-icon">
         <img class="fb-messenger-icon" src="http://wonder-solve.com/PopSenger.io/assets/images/messenger-icon.png" alt="messenger-icon">
     </div>
 
