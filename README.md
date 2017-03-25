@@ -4,7 +4,7 @@
 ## Importent Notice
 Any legal or other right to the code generating the widget belong to Wonder-Solve™.
 
-## What's in it™
+## What's in it
 This is a tool to create an in website messanger widget for private and commercial use. 
 The widget will be distributed under Wonder-Solve™ and will be used according to the company license.
 
